@@ -33,3 +33,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OSM Map Data (GraphHopper) ###
+# Mapa de Colombia (~200 MB)
+*.osm.pbf
+*.osm
+
+# Cache de GraphHopper (5-10 GB)
+osm-data/
+graph-cache/
+
+### Docker & Deployment ###
+# Nginx config (ya no se usa, pero por si existe)
+nginx.conf
+
+# Docker overrides locales
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.yml
+

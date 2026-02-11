@@ -9,5 +9,4 @@ public class RouteOptimizerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RouteOptimizerApplication.class, args);
 	}
-
 }
